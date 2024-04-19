@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.jadwaleuro {
+    background-color: #0D1E62;
+    display: flex;
+    align-items: center;
+    padding: 12px 0 12px 24px;
+    gap: 16px;
+    border-radius: 8px;
+}
+
+.jadwaleuro .swiper-jadwal {
+    overflow: hidden;
+    width: calc(100% - 160px - 30px);
+    position: relative;
+}
+
+.jadwaleuro .column1 {
+    color: #FAAA50;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    width: 160px;
+}
+
+.jadwaleuro .column1 .title1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.jadwaleuro .column1 .title2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    padding: 8px;
+    border: solid 1px #F9BF4B;
+    margin-top: 16px;
+}
+
+.jadwaleuro .column2 {
+    padding: 12px 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    box-shadow: 0px 1px 10px 0px #00000040;
+    border: 1px solid #1C3288;
+    padding: 16px;
+    border-radius: 8px;
+    width: 217px;
+    margin-right: 10px;
+}
+
+.jadwaleuro .column2 .jadwal {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+.jadwaleuro .column2 .jadwal div:first-child {
+    color: #FFCB50;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.jadwaleuro .column2 .jadwal div:nth-child(2) {
+    color: #FFCB50;
+}
+
+.jadwaleuro .column2 .jadwal div:nth-child(3) {
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.jadwaleuro .column2 .hasil .group {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.jadwaleuro .column2 .hasil .group div:nth-child(2) {
+    
+}
+
+.jadwaleuro .column2 .hasil .bendera {
+    display: flex;
+    align-items: center;
+}
+
+.jadwaleuro .column2 .hasil .negara {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.jadwaleuro .column2 .hasil .negara .bendera {
+    width: 32px;
+    height: 32px;
+}
+
+.jadwaleuro .column2 .hasil .negara .bendera img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-button-next {
+    background-image: url(../assets/img/right-swiper.png);
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    right: 0px;
+    z-index: 9999;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 10px 13px;
+    border: solid 1px #FFE066;
+    border-radius: 100%;
+    background-color: #0D1E62;
+  }
+
+.swiper-button-next:after {
+  display: none;
+}
+  
