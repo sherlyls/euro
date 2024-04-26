@@ -1,0 +1,142 @@
+.euro {
+    .title-jadwal {
+        display: flex;
+        margin-bottom: 24px;
+        align-items: center;
+        justify-content: space-between;
+        .text {
+            font-family: "Plus Jakarta Sans", sans-serif;
+            font-size: 24px;
+            line-height: 30.24px;
+            font-weight: 700;
+            &.topskor {
+              margin-top: 8px;
+            }
+        }
+        .group-select {
+            display: flex;
+            gap: 24px;
+        }
+    }
+
+}
+
+// .custom-select select {
+//     display: block !important;
+// }
+
+.custom-select {
+    position: relative;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element:*/
+  }
+
+  .custom-select .select-selected {
+    background: #FAAA50;
+  }
+
+  .custom-klasemen .select-selected {
+    background: #fff;
+    border: 1px solid #212121;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .custom-klasemen .select-items {
+    border-radius: 8px;
+  }
+
+  .custom-klasemen .select-items div:first-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 4px;
+  }
+
+  .custom-klasemen .select-items div:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .custom-klasemen .select-items .same-as-selected{
+    background: #FAAA50;
+  }
+  
+  .select-selected {
+    background-color: #FAAA50;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    display: none;
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+
+  .custom-klasemen {
+    width: 194px;
+  }
+
+  .custom-klasemen .select-selected:after {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #212121 transparent transparent transparent;
+  }
+  
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #212121 transparent;
+    top: 7px;
+  }
+  
+  /*style the items (options), including the selected item:*/
+  .select-items div,.select-selected {
+    color: #212121;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  
+
+

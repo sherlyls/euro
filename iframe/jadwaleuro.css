@@ -44,6 +44,13 @@
     margin-top: 16px;
 }
 
+.jadwaleuro .column1 .title2 a,
+.jadwaleuro .column1 .title2 a:visited,
+.jadwaleuro .column1 .title2 a:link {
+    color: #FAAA50;
+    text-decoration: none;
+}
+
 .jadwaleuro .column2 {
     padding: 12px 0;
     font-family: "Plus Jakarta Sans", sans-serif;
